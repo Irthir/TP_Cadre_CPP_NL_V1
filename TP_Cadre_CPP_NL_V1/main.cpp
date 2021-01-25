@@ -16,6 +16,8 @@ int main()
 	CCadre cadre;
 	cadre.Affiche();
 	cout << "PASSAGE A LA ROTATION" << endl;
+
+	cout << "ROTATION 90°" << endl;
 	cadre.Rotation(90.0f);
 
 	return 0;
